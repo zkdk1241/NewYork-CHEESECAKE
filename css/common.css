@@ -11,11 +11,11 @@ body {
 }
 .header {
   width: 100vw;
-  height: 15vh;
+  height: 17vh;
 }
 .main {
   width: 100vw;
-  height: 75vh;
+  height: 73vh;
 }
 .footer {
   background-color: #9a752c;
@@ -25,15 +25,17 @@ body {
 
 .logo {
   position: relative;
+  float: left;
   margin-left: 2vw;
   margin-top: 1vw;
+  width: 13vw;
 }
 .copyright {
   position: relative;
   float: left;
   color: #270707;
   margin-left: 1.5vw;
-  margin-top: 1vw;
+  margin-top: 0.1vw;
   width: 10vw;
   font-size: 0.8vw;
 }
