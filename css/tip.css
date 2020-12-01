@@ -1,9 +1,92 @@
-.copyright {
+.left {
+  position: absolute;
+  width: 48vw;
+  height: 75vh;
+}
+.right {
+  position: absolute;
+  width: 52vw;
+  height: 75vh;
+  margin-top: -17vh;
+  margin-left: 48vw;
+}
+.information {
   position: relative;
   float: left;
-  color: #270707;
-  margin-left: 1.5vw;
-  margin-top: 0.4vw;
-  width: 10vw;
-  font-size: 0.8vw;
+  margin-left: 2vw;
+  margin-top: 1vw;
+  width: 48vw;
+}
+#starting_point {
+  width: 15vw;
+}
+#destination {
+  margin-top: 1.2vw;
+  width: 15vw;
+}
+.write_labels {
+  margin-left: 1vw;
+  font-size: 1.1vw;
+}
+.satisfication {
+  position: relative;
+  float: left;
+  margin-left: 2vw;
+  margin-top: 2vw;
+}
+#desirability {
+  width: 22vw;
+}
+.check_group {
+  margin-left: 1vw;
+  margin-top: 0vw;
+  margin-bottom: -1vw;
+  width: 40vw;
+  height: 4.5vw;
+}
+.check_image {
+  position: relative;
+  float: left;
+  width: 3.2vw;
+  border-radius: 100%;
+  z-index: 100;
+}
+.check_label {
+  position: relative;
+  float: left;
+  font-size: 1.1vw;
+  margin-left: -2.2vw;
+  margin-top: 0.22vw;
+  padding-left: 3vw;
+  padding-top: 0.5vw;
+  width: 30vw;
+  height: 2.2vw;
+  border-radius: 10px;
+}
+#play_btn {
+  position: relative;
+  float: left;
+  width: 8vw;
+  margin-top: 1.2vw;
+  margin-left: 2vw;
+}
+#talk {
+  position: relative;
+  float: left;
+  margin-left: -18vw;
+  margin-top: 2vw;
+  width: 20vw;
+}
+#talk_content {
+  position: relative;
+  float: left;
+  margin-left: -10vw;
+  margin-top: 5.8vw;
+  font-size: 1.1vw;
+  width: 15vw;
+  z-index: 100;
+  transform: rotate(-1deg);
+}
+.copyright {
+  margin-top: 1.2vw;
 }

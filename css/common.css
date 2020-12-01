@@ -47,6 +47,30 @@ body {
   margin-top: -37.5vw;
   margin-right: 26vw;
 }
+.rank_text {
+  position: relative;
+  float: right;
+  font-size: 1.15vw;
+  font-weight: 500;
+  width: 25vw;
+  margin-right: 11vw;
+  transform: rotate(-1deg);
+}
+#rank_text1 {
+  margin-top: -33vw;
+}
+#rank_text2 {
+  margin-top: -26.2vw;
+}
+#rank_text3 {
+  margin-top: -19vw;
+}
+#rank_text4 {
+  margin-top: -12.2vw;
+}
+#rank_text5 {
+  margin-top: -6.2vw;
+}
 .copyright {
   position: absolute;
   color: #270707;
