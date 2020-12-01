@@ -8,10 +8,7 @@ $(document).ready(function(){
         $(img_str).attr('src', '../images/check_after.png');
         // $(label_str).css('background-color', '#FEF2CE');
     })
-    $('#play_btn').hover(function(){
-
-    })
     $('#play_btn').click(function(){
-        //의사결정나무
+        //영수증 바꾸기
     })
 })
