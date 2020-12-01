@@ -36,29 +36,8 @@
   height: 2.2vw;
   border-radius: 10px;
 }
-.spot_rank_text {
-  position: relative;
-  float: right;
-  font-size: 1.15vw;
-  font-weight: 500;
-  width: 25vw;
-  margin-right: 11vw;
-  transform: rotate(-1deg);
-}
-#spot_rank_text1 {
-  margin-top: -33vw;
-}
-#spot_rank_text2 {
-  margin-top: -26.2vw;
-}
-#spot_rank_text3 {
-  margin-top: -19vw;
-}
-#spot_rank_text4 {
-  margin-top: -12.2vw;
-}
-#spot_rank_text5 {
-  margin-top: -6.2vw;
+#select_label1 {
+  background-color: #fef2ce;
 }
 .copyright {
   margin-top: 1.2vw;
