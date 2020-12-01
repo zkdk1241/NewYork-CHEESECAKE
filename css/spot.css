@@ -22,13 +22,19 @@
   float: left;
   width: 4.2vw;
   border-radius: 100%;
+  z-index: 100;
 }
 .select_label {
   position: relative;
   float: left;
   font-size: 1.1vw;
-  margin-left: 2vw;
-  margin-top: 1.3vw;
+  margin-left: -1vw;
+  margin-top: 0.7vw;
+  padding-left: 3vw;
+  padding-top: 0.5vw;
+  width: 30vw;
+  height: 2.2vw;
+  border-radius: 10px;
 }
 .spot_rank_text {
   position: relative;
@@ -55,6 +61,5 @@
   margin-top: -6.2vw;
 }
 .copyright {
-  margin-left: -45vw;
-  margin-top: 0.8vw;
+  margin-top: 1.2vw;
 }
