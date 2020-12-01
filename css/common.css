@@ -91,10 +91,17 @@ body {
   margin-top: 1.2vw;
   width: 15vw;
 }
-
-.write_labels {
+.write_dummy {
+  position: relative;
+  float: left;
   margin-left: 1vw;
+}
+.write_labels {
+  margin-left: 0.5vw;
   font-size: 1.1vw;
+  border: none;
+  background-color: transparent;
+  color: #57310e;
 }
 .satisfication {
   position: relative;
