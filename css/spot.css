@@ -1,0 +1,60 @@
+.left {
+  position: absolute;
+  width: 48vw;
+  height: 75vh;
+}
+.right {
+  position: absolute;
+  width: 52vw;
+  height: 75vh;
+  margin-top: -17vh;
+  margin-left: 48vw;
+}
+.select_group {
+  margin-left: 3.5vw;
+  margin-top: 1.5vw;
+  margin-bottom: 2vw;
+  width: 40vw;
+  height: 4.5vw;
+}
+.select_image {
+  position: relative;
+  float: left;
+  width: 4.2vw;
+  border-radius: 100%;
+}
+.select_label {
+  position: relative;
+  float: left;
+  font-size: 1.1vw;
+  margin-left: 2vw;
+  margin-top: 1.3vw;
+}
+.spot_rank_text {
+  position: relative;
+  float: right;
+  font-size: 1.15vw;
+  font-weight: 500;
+  width: 25vw;
+  margin-right: 11vw;
+  transform: rotate(-1deg);
+}
+#spot_rank_text1 {
+  margin-top: -33vw;
+}
+#spot_rank_text2 {
+  margin-top: -26.2vw;
+}
+#spot_rank_text3 {
+  margin-top: -19vw;
+}
+#spot_rank_text4 {
+  margin-top: -12.2vw;
+}
+#spot_rank_text5 {
+  margin-top: -6.2vw;
+}
+.copyright {
+  margin-left: -45vw;
+  margin-top: 0.8vw;
+}
