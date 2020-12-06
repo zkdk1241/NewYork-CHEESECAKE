@@ -9,4 +9,5 @@ library(stringr)
 mile <- str_trim(substr(tag, regexpr('\\(', tag)+1, regexpr('마일',tag)-1))
 miles<-as.numeric(mile)
 km<-miles*1.60934
-print(km)
+setwd("./Analysis")
+write(km, file="distance.txt")
