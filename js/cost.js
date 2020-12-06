@@ -26,12 +26,13 @@ $(document).ready(function(){
         let starting_point=$('#start_place_text').attr('value');
         let destination=$('#end_place_text').attr('value');
         let time_zone=$('#check_label'+select_num).attr('value');
-
+        
         $('#receipt_text1').text(starting_point);
         $('#receipt_text2').text(destination);
         $('#receipt_text3').text(time_zone);
         //let str="https://www.google.co.kr/maps/dir/"+starting_point+", New York/"+destination+", New York";
         //window.open(str);
+        
         readTextFile("../Analysis/distance.txt");
         //영수증 업데이트
     })
