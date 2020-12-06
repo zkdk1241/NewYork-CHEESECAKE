@@ -1,0 +1,11 @@
+$(document).ready(function(){
+    $('#group1').click(function(){
+        window.location.href="./cost.html"
+    })
+    $('#group2').click(function(){
+        window.location.href="./tip.html"
+    })
+    $('#group3').click(function(){
+        window.location.href="./spot.html"
+    })
+})

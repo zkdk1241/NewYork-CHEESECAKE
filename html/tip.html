@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+    <meta charset= 'utf-8'/>
+    <title>Tip Recommendation</title>
+    <link rel="stylesheet" href="../css/common.css"/>
+    <link rel="stylesheet" href="../css/tip.css"/>
+    <script src="http://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="../js/tip.js"></script>
+    <script src="../js/common.js"></script>
+</head>
+<body>
+    <div class="container">
+    <div class="header">
+        <img src="../images/logo.png" class="logo"/>
+    </div>
+    <div class="main">
+        <div class="left">
+            <div class="information">
+            <img src="../images/starting_point.png" id="starting_point"/><br/>
+            <label class="write_dummy">:</label>
+            <input type="text" class="write_labels" id="start_place_text" value="The River Cafe"></input><br/>
+            <img src="../images/destination.png" id="destination"/><br/>
+            <label class="write_dummy">:</label>
+            <input type="text" class="write_labels" id="end_place_text" value="Times square"></input><br/>
+        </div>
+            <div class="satisfication">
+                <img src="../images/desirability.png" id="desirability"/>
+                <div class="check_group" id="check_group1">
+              <img src="../images/check_before.png" class="check_image" id="check_image1"/>
+              <label class="check_label" id="check_label1" value="Minimal">최소한의 팁 Minimal Tip</label>
+            </div>
+            <div class="check_group" id="check_group2">
+                <img src="../images/check_after.png" class="check_image" id="check_image2"/>
+                <label class="check_label" id="check_label2" value="Normal">일반적인 팁 Normal Tip</label>
+              </div>
+              <div class="check_group" id="check_group3">
+                <img src="../images/check_before.png" class="check_image" id="check_image3"/>
+                <label class="check_label" id="check_label3" value="Sufficient">만족스러운 팁 Sufficient Tip </label>
+              </div>
+            </div>
+              <img src="../images/play.png" id="play_btn"/>
+        </div>
+        <div class="right">
+            <p id="talk_content">50$의 팁을 추천합니다!<br/>
+                50$ recommended as a tip!</p>
+            <img src="../images/talk.png" id="talk"/>
+            <img src="../images/paper.png" class="paper"/>
+            <img src="../images/tip_title.png" class="paper_title"/>
+            <p class="rank_text" id="rank_text1">100$<br/>
+              거리 distance : 100km</p>
+            <p class="rank_text" id="rank_text2">80$<br/>
+              거리 distance : 120km</p>
+            <p class="rank_text" id="rank_text3">25$<br/>
+              거리 distance : 100km</p>
+            <p class="rank_text" id="rank_text4">20$<br/>
+              거리 distance : 110km</p>
+            <p class="rank_text" id="rank_text5">10$<br/>
+              거리 distance : 90km</p>
+        </div>
+    </div>
+    <div class="footer">
+        <label class="copyright"> Copyright ©2020 </label>
+    </div>
+    </div>
+</body>

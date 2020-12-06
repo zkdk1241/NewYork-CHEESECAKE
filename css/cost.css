@@ -1,0 +1,65 @@
+.left {
+  position: absolute;
+  width: 48vw;
+  height: 75vh;
+}
+.right {
+  position: absolute;
+  width: 52vw;
+  height: 75vh;
+  margin-top: -17vh;
+  margin-left: 48vw;
+}
+#price_prediction {
+  position: relative;
+  float: right;
+  width: 35vw;
+  margin-top: 1.8vw;
+  margin-right: 12vw;
+}
+.receipt_text {
+  position: relative;
+  float: right;
+  font-size: 1.2vw;
+  font-weight: 800;
+  color: #64430f;
+  width: 10vw;
+}
+#receipt_text1 {
+  margin-top: -32.8vw;
+  margin-right: 21.5vw;
+  transform: rotateX(-1.5deg) rotateY(-6deg) rotateZ(-1.2deg);
+}
+#receipt_text2 {
+  margin-top: -29.5vw;
+  margin-right: 22.7vw;
+  transform: rotateX(-1.5deg) rotateY(-6deg) rotateZ(-1.2deg);
+}
+#receipt_text3 {
+  margin-top: -26.5vw;
+  margin-right: 23.5vw;
+  transform: rotateX(-1.5deg) rotateY(-6deg) rotateZ(-1.2deg);
+}
+#receipt_text4 {
+  margin-top: -22vw;
+  margin-right: 14vw;
+  transform: rotateX(0.5deg) rotateY(-6deg) rotateZ(1deg);
+}
+#receipt_text5 {
+  margin-top: -18.95vw;
+  margin-right: 13vw;
+  transform: rotateX(0.5deg) rotateY(-6deg) rotateZ(1deg);
+}
+#receipt_text6 {
+  margin-top: -15.5vw;
+  margin-right: 10.5vw;
+  transform: rotateX(0.5deg) rotateY(-6deg) rotateZ(1deg);
+}
+#receipt_text7 {
+  margin-top: -11.75vw;
+  margin-right: 15.4vw;
+  transform: rotateX(0.5deg) rotateY(-6deg) rotateZ(0.8deg);
+}
+.copyright {
+  margin-top: 1.2vw;
+}

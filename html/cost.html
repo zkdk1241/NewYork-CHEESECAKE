@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+    <meta charset= 'utf-8'/>
+    <title>Cost Prediction</title>
+    <link rel="stylesheet" href="../css/common.css"/>
+    <link rel="stylesheet" href="../css/cost.css"/>
+    <script src="http://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="../js/cost.js"></script>
+    <script src="../js/common.js"></script>
+</head>
+<body>
+    <div class="container">
+    <div class="header">
+        <img src="../images/logo.png" class="logo"/>
+        <img src="../images/picnic.png" class="picnic"/>
+    </div>
+    <div class="main">
+        <div class="left">
+            <div class="information">
+            <img src="../images/starting_point.png" id="starting_point"/><br/>
+            <label class="write_dummy">:</label>
+            <input type="text" class="write_labels" id="start_place_text" value="The River Cafe"></input><br/>
+            <img src="../images/destination.png" id="destination"/><br/>
+            <label class="write_dummy">:</label>
+            <input type="text" class="write_labels" id="end_place_text" value="Times square"></label><br/>
+        </div>
+            <div class="satisfication">
+                <img src="../images/time_selection.png" id="desirability"/>
+                <div class="check_group" id="check_group1">
+              <img src="../images/check_before.png" class="check_image" id="check_image1"/>
+              <label class="check_label" id="check_label1" value="Dawn">새벽 Dawn (PM 11:30 ~ AM 6:30)</label>
+            </div>
+            <div class="check_group" id="check_group2">
+                <img src="../images/check_after.png" class="check_image" id="check_image2"/>
+                <label class="check_label" id="check_label2" value="Normal">일반 Normal (AM 9:30 ~ PM 5:30, PM 8:30 ~ PM 11:30)</label>
+              </div>
+              <div class="check_group" id="check_group3">
+                <img src="../images/check_before.png" class="check_image" id="check_image3"/>
+                <label class="check_label" id="check_label3" value="Congestion">혼잡 Congestion (AM 6:30 ~ AM9:30, PM 5:30 ~ PM 8:30)</label>
+              </div>
+            </div>
+              <img src="../images/play.png" id="play_btn"/>
+        </div>
+        <div class="right">
+            <img src="../images/price_prediction.png" id="price_prediction"/>
+              <label class="receipt_text" id="receipt_text1">The River Cafe</label>
+              <label class="receipt_text" id="receipt_text2">Times square</label>
+              <label class="receipt_text" id="receipt_text3">Normal</label>
+              <label class="receipt_text" id="receipt_text4">100</label>
+              <label class="receipt_text" id="receipt_text5">100</label>
+              <label class="receipt_text" id="receipt_text6">a</label>
+              <label class="receipt_text" id="receipt_text7">(100+a) </label>
+        </div>
+    </div>
+    <div class="footer">
+        <label class="copyright"> Copyright ©2020 </label>
+    </div>
+    </div>
+</body>

@@ -1,0 +1,44 @@
+.left {
+  position: absolute;
+  width: 48vw;
+  height: 75vh;
+}
+.right {
+  position: absolute;
+  width: 52vw;
+  height: 75vh;
+  margin-top: -17vh;
+  margin-left: 48vw;
+}
+.select_group {
+  margin-left: 3.5vw;
+  margin-top: 1.5vw;
+  margin-bottom: 2vw;
+  width: 40vw;
+  height: 4.5vw;
+}
+.select_image {
+  position: relative;
+  float: left;
+  width: 4.2vw;
+  border-radius: 100%;
+  z-index: 100;
+}
+.select_label {
+  position: relative;
+  float: left;
+  font-size: 1.1vw;
+  margin-left: -1vw;
+  margin-top: 0.7vw;
+  padding-left: 3vw;
+  padding-top: 0.5vw;
+  width: 30vw;
+  height: 2.2vw;
+  border-radius: 10px;
+}
+#select_label1 {
+  background-color: #fef2ce;
+}
+.copyright {
+  margin-top: 1.2vw;
+}

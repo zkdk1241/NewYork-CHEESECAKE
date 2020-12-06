@@ -1,0 +1,33 @@
+.left {
+  position: absolute;
+  width: 48vw;
+  height: 75vh;
+}
+.right {
+  position: absolute;
+  width: 52vw;
+  height: 75vh;
+  margin-top: -17vh;
+  margin-left: 48vw;
+}
+#talk {
+  position: relative;
+  float: left;
+  margin-left: -18vw;
+  margin-top: 2vw;
+  width: 20vw;
+}
+#talk_content {
+  position: relative;
+  float: left;
+  margin-left: -10vw;
+  margin-top: 5.8vw;
+  font-size: 1.1vw;
+  color: #57310e;
+  width: 15vw;
+  z-index: 100;
+  transform: rotate(-1deg);
+}
+.copyright {
+  margin-top: 1.2vw;
+}
