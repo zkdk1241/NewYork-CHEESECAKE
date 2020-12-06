@@ -15,9 +15,8 @@ $(document).ready(function(){
         $('#receipt_text1').text(starting_point);
         $('#receipt_text2').text(destination);
         $('#receipt_text3').text(time_zone);
-
-        let str="https://www.google.co.kr/maps/dir/"+starting_point+", New York/"+destination+", New York";
-        window.open(str);
+        //let str="https://www.google.co.kr/maps/dir/"+starting_point+", New York/"+destination+", New York";
+        //window.open(str);
 
         //영수증 업데이트
     })
